@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhB1aFPd-hm0RZqhlCzED3C9dk42Se2d6MA&s');
+    background-size: cover;
+} 
+.container{
+    margin-top: 10%;
+    color: white;
+    box-shadow: 5px 10px 600px 250px;
+    border-radius: 50px 0px 50px 0px 
+}
+#result{
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    width: 260px;
+    margin-left: 4px;
+}
+#result:focus{
+    outline: none;
+}
+.allbutton>.row>.col-3>button,.allbutton>.row>.col-6>button{
+    color: white;
+    border-radius: 10px 20px 30px 40px ;
+    /* border-radius: 50px; */
+    font-weight: bold;
+}
+.allbutton>.row>.col-3>button:hover,.allbutton>.row>.col-6>button:hover{
+    color: black;
+    background-color: white;
+}
+@media (min-width:1440px) {
+    #result{
+        width: 20.8vw;
+    }
+}
