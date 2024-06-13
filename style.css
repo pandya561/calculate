@@ -54,5 +54,6 @@ body {
     #result {
         width: 55vw;
         height: 10vw;
+        font-size: 6vw;
     }
 }
